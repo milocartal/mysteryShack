@@ -2,6 +2,8 @@
     section {
         display: flex;
         flex-direction: column;
+        max-width: 350px;
+        align-self: center;
     }
 
     nav a {
@@ -12,13 +14,23 @@
         flex-direction: column;
         gap: 2em;
     }
+    #history img {
+        max-width: 300px;
+    }
 
     main {
         padding: 10px;
     }
 
-    img {
-        max-width: fit-content;
+    img{
+        max-width: 300px;
+    }
+
+    #house1 {
+        max-width:300px
+    }
+    #house2 {
+        max-width:300px
     }
     
 }
