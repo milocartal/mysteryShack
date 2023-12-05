@@ -10,3 +10,86 @@ input[type="email"], input[type="date"], textarea {
     padding: 5px 10px;
 }
 
+#dipperForest {
+    width: 100%;
+}
+
+.legende{
+    color: rgb(96, 96, 96);
+    font-style: italic;
+}
+
+.eggImg{
+    width: 575px;
+    height: 375px;
+}
+
+#blandin1{
+    background-image: url(../assets/episodes/blandin/episode1.jpg);
+    background-position: right;
+    background-size: cover;
+}
+
+#blandin2{
+    background-image: url(../assets/episodes/blandin/episode2.jpg);
+    background-position: right;
+    background-size: cover;
+}
+
+#billFace1{
+    background-image: url(../assets/episodes/bill/episode1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#billFace2{
+    background-image: url(../assets/episodes/bill/episode5.jpg);
+    background-position: left;
+    background-size: cover;
+}
+
+#codeExplained{
+    background-image: url(../assets/crypto/code1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#codeExplained2{
+    background-image: url(../assets/crypto/code2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#billMap{
+    background-image: url(../assets/crypto/billMap.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#billMapExplained{
+    background-image: url(../assets/crypto/billMapExplained.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+section div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: start;
+}
+
+section p {
+    width: 100%;
+}
+
+.crypto {
+    width: 60%;
+}
