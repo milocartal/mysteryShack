@@ -14,7 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
-    
+
     <link
       rel="icon"
       type="image/x-icon"
@@ -25,13 +25,13 @@
     <header>
       <a href="index.html">
         <img
-        src="./assets/mysteryShackLogo.png"
-        id="logo"
-        alt="The Mystery Shack Logo"
-        loading="lazy"
-      />
+          src="./assets/mysteryShackLogo.png"
+          id="logo"
+          alt="The Mystery Shack Logo"
+          loading="lazy"
+        />
       </a>
-      
+
       <nav>
         <a href="index.html">Accueil</a>
         <a href="gravityFalls.html">Gravity Falls</a>
@@ -42,20 +42,50 @@
 
     <main>
       <h1>Contact</h1>
-      <p>Les Souvenirs de Gravity Falls est une séries très populaire ! Alors donnez nous votre avis sur la série mais aussi quel est votre épisode préferé et pourquoi !</p>
+      <p>
+        Les Souvenirs de Gravity Falls est une séries très populaire ! Alors
+        donnez nous votre avis sur la série mais aussi quel est votre épisode
+        préferé et pourquoi !
+      </p>
       <form>
-        <input type="email" placeholder="email" required />
-        <input type="date" placeholder="date de naissance" required />
-        <textarea
-          name="message"
-          id="message"
-          cols="30"
-          rows="10"
-          placeholder="message"
-          required
-        ></textarea>
+        <label>
+          Email :
+          <input type="email" placeholder="email" required />
+        </label>
+
+        <label>
+          Date de naissance :
+          <input type="date" placeholder="date de naissance" required />
+        </label>
+
+        <fieldset>
+          <legend>Sexe</legend>
+          <label class="labelRadio">
+            Masculin
+            <input type="radio" name="sexe" />
+          </label>
+          <label class="labelRadio">
+            Feminin
+            <input type="radio" name="sexe" />
+          </label>
+          <label class="labelRadio">
+            Autre
+            <input type="radio" name="sexe" />
+          </label>
+        </fieldset>
+        <label>
+          Message :
+          <textarea
+            name="message"
+            id="message"
+            cols="40"
+            rows="5"
+            placeholder="message"
+            required
+          ></textarea>
+        </label>
+
         <button type="submit">Envoyer</button>
-        
       </form>
     </main>
 
