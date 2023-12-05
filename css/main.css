@@ -65,6 +65,12 @@ h1{
     color: #8F9F62;
 }
 
+h2{
+    font-family: 'Karantina', Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color:#F6E9C5;
+}
+
 #history{
     display: flex;
     align-items: center;

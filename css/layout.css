@@ -1,14 +1,4 @@
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    height: 100%;
-    gap: 1rem;
-}
 
-input[type="email"], input[type="date"], textarea {
-    padding: 5px 10px;
-}
 
 #dipperForest {
     width: 100%;
@@ -17,6 +7,7 @@ input[type="email"], input[type="date"], textarea {
 .legende{
     color: rgb(96, 96, 96);
     font-style: italic;
+    font-size: medium;
 }
 
 .eggImg{
@@ -86,10 +77,45 @@ section{
     text-align: start;
 }
 
-section p {
+main p {
     width: 100%;
+    font-size: large;
 }
 
 .crypto {
     width: 60%;
+}
+
+#personnages{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+}
+
+#personnages article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    gap: 1rem;
+    background-color:#8F9F62;
+    padding: 30px 20px;
+    border-radius: 50px;
+}
+
+#personnages article h2, #personnages article p {
+    margin: 0;
+    padding: 0;
+}
+
+.persoImg {
+    width: 200px;
+}
+
+#oregonMap{
+    width: 100%;
 }

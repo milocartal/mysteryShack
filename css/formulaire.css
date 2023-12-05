@@ -1,0 +1,11 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+    gap: 1rem;
+}
+
+input[type="email"], input[type="date"], textarea {
+    padding: 5px 10px;
+}
