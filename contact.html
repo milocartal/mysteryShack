@@ -1,54 +1,45 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The Mystery Shack</title>
-    <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/media.css" />
-    <link rel="stylesheet" href="./css/layout.css" />
-    <link rel="stylesheet" href="./css/formulaire.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Mystery Shack</title>
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/media.css" />
+  <link rel="stylesheet" href="./css/layout.css" />
+  <link rel="stylesheet" href="./css/formulaire.css" />
 
-    <link
-      rel="icon"
-      type="image/x-icon"
-      href="./assets/favicon_io/favicon.ico"
-    />
-  </head>
-  <body>
-    <header>
-      <a href="index.html">
-        <img
-          src="./assets/mysteryShackLogo.png"
-          id="logo"
-          alt="The Mystery Shack Logo"
-          loading="lazy"
-        />
-      </a>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&display=swap" rel="stylesheet" />
 
-      <nav>
-        <a href="index.html">Accueil</a>
-        <a href="gravityFalls.html">Gravity Falls</a>
-        <a href="easterEgg.html">Détails cachés</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </header>
+  <link rel="icon" type="image/x-icon" href="./assets/favicon_io/favicon.ico" />
+</head>
 
-    <main>
-      <h1>Contact</h1>
-      <p>
-        Les Souvenirs de Gravity Falls est une séries très populaire ! Alors
-        donnez nous votre avis sur la série mais aussi quel est votre épisode
-        préferé et pourquoi !
-      </p>
-      <form action="contact.html">
+<body>
+  <header>
+    <a href="index.html">
+      <img src="./assets/mysteryShackLogo.png" id="logo" alt="The Mystery Shack Logo" loading="lazy" />
+    </a>
+
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="gravityFalls.html">Gravity Falls</a>
+      <a href="easterEgg.html">Détails cachés</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Contact</h1>
+    <p>
+      Les Souvenirs de Gravity Falls est une séries très populaire ! Alors
+      donnez nous votre avis sur la série mais aussi quel est votre épisode
+      préferé et pourquoi !
+    </p>
+    <form action="contact.html">
+      <from action="formulaire.php" method="post">
         <label>
           Email :
           <input type="email" placeholder="dipper@gravityfalls.com" required />
@@ -76,29 +67,20 @@
         </fieldset>
         <label id="textLabel">
           Message :
-          <textarea
-            name="message"
-            id="message"
-            cols="35"
-            rows="5"
-            placeholder="Votre message..."
-            required
-          ></textarea>
+          <textarea name="message" id="message" cols="35" rows="5" placeholder="Votre message..." required></textarea>
         </label>
+      </from>
+      <button type="submit">Envoyer</button>
+    </form>
+    <section>
+      <img src="https://media.tenor.com/JQIT3h4qSiYAAAAC/gravity-falls.gif" style="width: 100%" />
+      <p class="legende">
+        Voici la tête de la personne qui à vérifier le code avant le rendu quand il a vu du PHP (c'est un info)
+      </p>
+    </section>
+  </main>
 
-        <button type="submit">Envoyer</button>
-      </form>
-      <section>
-        <img
-          src="https://media.tenor.com/JQIT3h4qSiYAAAAC/gravity-falls.gif"
-          style="width: 100%"
-        />
-        <p class="legende">
-          Voici la tête de la personne qui à vérifier le code avant le rendu quand il a vu du PHP (c'est un info)
-        </p>
-      </section>
-    </main>
+  <footer></footer>
+</body>
 
-    <footer></footer>
-  </body>
 </html>
